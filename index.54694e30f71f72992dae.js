@@ -29,20 +29,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 jquery__WEBPACK_IMPORTED_MODULE_6___default()(function(){
-    var sUserAgent = navigator.userAgent.toLowerCase();
-    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
-    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
-    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
-    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
-    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
-    var bIsAndroid = sUserAgent.match(/android/i) == "android";
-    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
-    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
-    if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
-         window.location.href = 'phone.html';
-    } else {
-        //  window.location = 'PC设备地址';
-    }
+    // var sUserAgent = navigator.userAgent.toLowerCase();
+    // var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    // var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    // var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    // var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    // var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    // var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    // var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    // var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+    // if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+    //      window.location.href = 'phone.html';
+    // } else {
+    //     //  window.location = 'PC设备地址';
+    // }
 
     var banner = '';
     var myFullpage = new fullpage_js_dist_fullpage_min_js__WEBPACK_IMPORTED_MODULE_5___default.a('#fullpage', {
@@ -195,4 +195,4 @@ jquery__WEBPACK_IMPORTED_MODULE_6___default()(function(){
 
 /***/ })
 ],[[2,1,2]]]);
-//# sourceMappingURL=index.4fb8e0b77863104d8b52.js.map
+//# sourceMappingURL=index.54694e30f71f72992dae.js.map
