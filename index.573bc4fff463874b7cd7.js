@@ -147,6 +147,7 @@ jquery__WEBPACK_IMPORTED_MODULE_6___default()(function(){
     })
     //鼠标离开第一屏的左右按钮上或轮播内容上时时，开始自动轮播
     jquery__WEBPACK_IMPORTED_MODULE_6___default()('#section0 .container').on('mouseleave', function() {
+        clearInterval(banner)
         banner = setInterval(function(){ 
             fullpage_api.moveSlideRight(); 
         }, 5000); 
@@ -154,10 +155,18 @@ jquery__WEBPACK_IMPORTED_MODULE_6___default()(function(){
 
     jquery__WEBPACK_IMPORTED_MODULE_6___default()('#section0 .slide-pre').on('click', function() {
         fullpage_api.moveSlideLeft();
+        clearInterval(banner)
+        banner = setInterval(function(){ 
+            fullpage_api.moveSlideRight(); 
+        }, 5000); 
     })
 
         jquery__WEBPACK_IMPORTED_MODULE_6___default()('#section0 .slide-next').on('click', function() {
         fullpage_api.moveSlideRight();
+        clearInterval(banner)
+        banner = setInterval(function(){ 
+            fullpage_api.moveSlideRight(); 
+        }, 5000); 
     })
 
     jquery__WEBPACK_IMPORTED_MODULE_6___default()(".fixtel").on("mouseenter",function(){
@@ -195,4 +204,4 @@ jquery__WEBPACK_IMPORTED_MODULE_6___default()(function(){
 
 /***/ })
 ],[[2,1,2]]]);
-//# sourceMappingURL=index.54694e30f71f72992dae.js.map
+//# sourceMappingURL=index.573bc4fff463874b7cd7.js.map
